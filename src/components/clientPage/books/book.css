@@ -1,0 +1,51 @@
+.book-card {
+    width: 20rem !important;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title {
+    text-transform: capitalize;
+    color: forestgreen;
+    font-weight: 700;
+}
+
+.book-price {
+    font-size: 18px;
+    color: red;
+    font-weight: 500;
+}
+
+.card-text,
+.card-body a {
+    text-transform: capitalize;
+}
+
+/*----------------Filters------------------------*/
+.filter_menu {
+    width: 100%;
+    min-height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+.filter_menu select,
+input {
+    border: 1px solid #ccc;
+    outline: none;
+    height: 40px;
+    padding: 0 5px;
+}
+
+.filter_menu input {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.filter_menu .filter-row span {
+    margin-right: 10px;
+}

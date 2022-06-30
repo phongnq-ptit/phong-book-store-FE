@@ -1,0 +1,35 @@
+.detail-book {
+    max-width: 900px;
+}
+
+.detail-book__img img {
+    max-width: 600px;
+    margin: 20px;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.detail-book__body {
+    margin-left: 20px;
+    padding: 16px;
+    letter-spacing: 2px;
+}
+
+.detail-book__body h3 {
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 900;
+    color: forestgreen;
+    margin-bottom: 10px;
+}
+
+.detail-book__body span {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.detail-book__body h4 {
+    margin: 16px 0;
+    color: red;
+}

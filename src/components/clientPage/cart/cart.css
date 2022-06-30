@@ -1,0 +1,29 @@
+.cart-item__img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.cart-item__row {
+    line-height: 280px;
+    letter-spacing: 2px;
+}
+
+.cart-item__amount span {
+    color: crimson;
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cart-item__amount button {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #777;
+    line-height: 32px;
+}
+
+.container-fuild {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    background: white;
+}

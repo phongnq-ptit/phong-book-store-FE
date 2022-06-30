@@ -1,0 +1,65 @@
+.banner-manage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.upload-banner {
+    max-width: 500px;
+    height: 250px;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px;
+    position: relative;
+}
+
+#file_up-banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+#file_up-banner::before {
+    content: "+";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: white;
+    color: rgb(250, 200, 107);
+    font-size: 8rem;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+}
+
+.file_img-banner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+}
+
+.file_img-banner img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: initial;
+}
+
+.file_img-banner span {
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: 900;
+    color: crimson;
+}

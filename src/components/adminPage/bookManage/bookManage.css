@@ -1,0 +1,219 @@
+/* -----------BookManage-------------- */
+.book-manage {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+.add-book__btn {
+    width: 300px;
+    height: 486px;
+    color: #ccc;
+    border: 2px solid #ddd;
+    font-size: 10rem;
+    text-align: center;
+    line-height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 500;
+}
+
+.add-book__btn:hover {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.delete-all {
+    text-align: right;
+    margin: 20px;
+}
+
+.delete-all input {
+    height: 25px;
+    width: 25px;
+    transform: translateY(5px);
+    margin: 0 15px;
+}
+
+.delete-all span {
+    text-transform: uppercase;
+    color: rgb(3, 165, 206);
+    letter-spacing: 1.3px;
+}
+
+.delete-all button {
+    border: 1px solid crimson;
+    padding: 10px 25px;
+    color: crimson;
+    text-transform: uppercase;
+}
+
+/* -----------BookItem-------------- */
+.book-manage__card {
+    max-width: 300px;
+    overflow: hidden;
+    padding: 15px;
+    box-shadow: 0 0 15px #ddd;
+    margin: 0 10px;
+    position: relative;
+}
+
+.book-manage__card img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+
+.book-manage__card-box h5 {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: capitalize;
+    color: teal;
+    cursor: pointer;
+}
+
+.book-manage__card span {
+    color: crimson;
+}
+
+.book-manage__card-box p {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    color: #323232;
+}
+
+.row-btn {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-btn a {
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 6px;
+}
+
+.btn-delete {
+    background: crimson;
+    margin-right: 5px;
+}
+
+.btn-edit {
+    background: rgb(20, 86, 76);
+    margin-left: 5px;
+}
+
+.book-manage__card input {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+
+/* -----------AddBook-------------- */
+.add-book {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.upload {
+    max-width: 450px;
+    height: 500px;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px;
+    position: relative;
+}
+
+.file_up {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+.file_up::before {
+    content: "+";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: white;
+    color: rgb(250, 200, 107);
+    font-size: 17rem;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+}
+
+.file_img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+}
+
+.file_img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.file_img span {
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: 900;
+    color: crimson;
+}
+
+.add-book form {
+    max-width: 500px;
+    min-width: 290px;
+    width: 100%;
+    margin: 15px 30px;
+}
+
+.add-book form .row {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.add-book form input,
+textarea {
+    width: 100%;
+    min-height: 40px;
+    padding: 0 5px;
+}
+
+.add-book form button {
+    width: 200px;
+    height: 40px;
+    background: #555;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}

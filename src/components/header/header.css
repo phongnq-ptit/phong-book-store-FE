@@ -1,0 +1,28 @@
+header a {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #ccc;
+}
+
+.text-logo {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.cart-icon {
+    position: relative;
+    margin-right: 20px;
+}
+
+.cart-icon span {
+    position: absolute;
+    background: crimson;
+    border-radius: 20px;
+    color: white;
+    top: -5px;
+    right: -15px;
+    padding: 5px 7px;
+    font-size: 10px;
+}

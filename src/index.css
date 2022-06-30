@@ -5,9 +5,80 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #5a5a5a;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #ccc;
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(128, 128, 128);
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid rgb(128, 128, 128);
+  /* creates padding around scroll thumb */
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+@import url('./components/header/header.css');
+
+@import url('./components/clientPage/home/home.css');
+
+@import url('./components/not_found/notfound.css');
+
+@import url('./components/clientPage/login/login.css');
+
+@import url('./components/clientPage/books/book.css');
+
+@import url('./components/clientPage/detailBook/detailBook.css');
+
+@import url('./components/clientPage/cart/cart.css');
+
+@import url('./components/adminPage/categoryManage/categoryManage.css');
+
+@import url('./components/adminPage/bannerManage/bannerManage.css');
+
+@import url('./components/adminPage/bookManage/bookManage.css');
